@@ -1,0 +1,23 @@
+Smart-Fitness-Usage-Analysis-Powered-by-Strava
+To analyze how users interact with their fitness trackers using daily, hourly, and minute-level data and uncover key patterns, intensity trends, and region-wise engagement.
+Business Problem statements :-
+1.	All type of usage, region wise. - SQL
+2.	Top 10 users region wise. - SQL
+3.	Bottom performing region - SQL
+4.	Total Usage - SQL
+5.	Highest usage, overall/monthly trend - SQL
+6.	Avg Active time - SQL
+7.	Usage trend 6 months. - SQL
+8.	Forecast – On day 5
+9.	Top and bottom performing month
+10.	Distance consistency
+11.	Intensity trend
+12.	Avg daily steps
+13.	Duration
+14.	Most Active Time of Day - time-based patterns(Also Region wise)
+15.	Highest calorie, steps, distance, intensity region wise overall/monthly trend
+16.	Churn Analysis – On day 5
+17.	Sleep quality vs. activity levels
+18.	Weight trend vs. activity / calories (if weight data available)
+SQL / Python Explanation Documents ✅ SQL Summary – Structure: For each business question: 🔹 Problem: “Who are the top 10 users?” 🔹 SQL Query (Screenshot or formatted text) 🔹 Explanation: “We used GROUP BY Id + SUM(TotalSteps) + ORDER BY…” 🔹 Output Insight: “User 123456 walked the most steps – 14,992”
+✅ Python Summary – Structure: 🔹 What EDA was done (e.g., calories vs time, active hours) 🔹 Key plots and what they reveal 🔹 Challenges faced (e.g., nulls in sleep/weight) 🔹 Final visual/insight: “Activity spikes matched with calorie spikes”
